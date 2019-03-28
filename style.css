@@ -1,0 +1,72 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #937af9;
+}
+
+
+ 
+.mine {
+	background: red;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.mine::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.section {
+ 	width: 25%;
+ 	height: 100%;
+ 	float: left;
+ 	position: relative;
+}
+
+
+
+.preview-1 {
+	background: #222;
+}
+
+.preview-2 {
+	background: #333;
+}
+
+.preview-3 {
+	background: #444;
+}
+
+.preview-4 {
+	background: #555;
+}
+
+a {
+	text-decoration: none;
+	padding-right: 40px; 
+	color: #fff;
+	font: bold 28px/33px Roboto, sans-serif;
+	position: absolute;
+	bottom: 50px;
+	left: 40px;
+}
+
+p {
+	width: 400px;
+	margin: 40px auto;
+	text-align: center;
+	font: bold 40px/40px Roboto, sans-serif;
+	color: #fff;	
+}
+
+
+
